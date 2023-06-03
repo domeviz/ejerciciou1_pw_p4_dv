@@ -1,0 +1,53 @@
+#informacion {
+    border: 10px dashed black;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+
+#botones {
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1);
+}
+
+button {
+    background-color: white;
+    color: blue;
+    border-radius: 20px;
+    margin: 3px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    width: 200px;
+}
+
+#mensaje {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: blue;
+    border: 1px solid black;
+    font-family: "Times New Roman", Times, serif;
+    display: none;
+}
+
+#imagen {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    justify-content: center;
+}

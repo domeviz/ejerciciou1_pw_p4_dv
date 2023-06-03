@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Pokemon</title>
+    <link rel="stylesheet" href="../css/juegoPokemon.css">
+    <script src="../js/juegoPokemon.js"></script>
+</head>
+
+<body>
+    <h1>Juego Pokemon</h1>
+    <div id="informacion">
+        <p>Intentos: <span id="intentos">0</span></p>
+        <p>Puntaje: <span id="puntaje">0</span></p>
+        <p>Selecciona el nombre de pokemon correcto</p>
+        <p id="mensaje">Mensaje</p>
+    </div>
+    <div id="imagen">
+        <img src="../img/pnegro.jpg" alt="">
+    </div>
+    <div id="botones">
+        <button onclick="verificarRespuesta(1)">Keldeo-Ordinary</button>
+        <button onclick="verificarRespuesta(2)">Drilbur</button>
+        <button onclick="verificarRespuesta(3)">Ninjask</button>
+        <button onclick="verificarRespuesta(4)">Excadril</button>
+    </div>
+    <div id="reiniciar">
+        <button onclick="reiniciarJuego()">Reiniciar</button>
+    </div>
+</body>
+
+</html>
